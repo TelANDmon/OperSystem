@@ -1,0 +1,36 @@
+```gitignore
+# Скомпилированные файлы
+*.o
+*.out
+*.exe
+
+# Бинарники проекта
+app
+main
+program
+proc_info
+
+# Отладочная информация
+*.dSYM/
+*.core
+core
+
+# CMake
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+Makefile.cmake
+cmake_install.cmake
+
+# VS Code
+.vscode/
+
+# JetBrains / CLion
+.idea/
+
+# Временные файлы
+*.swp
+*.swo
+*~
+```
